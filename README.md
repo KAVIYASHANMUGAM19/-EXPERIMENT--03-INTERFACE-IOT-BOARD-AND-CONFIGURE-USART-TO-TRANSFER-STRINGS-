@@ -43,11 +43,43 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 
 ## STM 32 CUBE PROGRAM :
 
+#include "main.h"
 
+#include "stdio.h"
+
+ #if defined (__ICCARM__) || defined (__ARMCC_VERSION)
+ 
+#define PUTCHAR_PROTOTPYE int fputc(int ch, FILE *f)
+
+#elif defined(__GNUC__)
+
+#define PUTCHAR_PROTOTPYE int __io_putchar(int ch)
+
+#endif
+while(1)
+{
+printf(KAVIYA\n
+
+   212223040090\n)
+   
+   HAL_Delay(500);
+   
+}
+
+PUTCAHR_PROTOTYPE
+
+{
+
+HAL_UART_Transmit(&huart2,(unit8_t*)&ch, 1, 0xFFFF);
+
+return ch;
+
+}
 
 ## Output screen shots of Serial port utility   :
  
- 
+ ![WhatsApp Image 2024-02-28 at 10 00 45_ac6e22cd](https://github.com/KAVIYASHANMUGAM19/-EXPERIMENT--03-INTERFACE-IOT-BOARD-AND-CONFIGURE-USART-TO-TRANSFER-STRINGS-/assets/155141139/c88deb6e-6c5f-4592-b270-a292307d9d0e)
+
  
  
 ## Result :
