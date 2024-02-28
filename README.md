@@ -31,7 +31,7 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 10. once the project is bulild 
 ![image](https://user-images.githubusercontent.com/36288975/226189577-c61cc1eb-3990-4968-8aa6-aefffc766b70.png)
 
-4. click on debug option 
+4. click on debug option    
 ![image](https://user-images.githubusercontent.com/36288975/226189625-37daa9a3-62e9-42b5-a5ce-2ac63345905b.png)
 
 5 connect the  ARM board to power supply and usb 
