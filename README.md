@@ -1,11 +1,12 @@
 
-###  DATE: 
+###  DATE: 28.02.24
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME:KAVIYA 
+###  ROLL NO : 212223040090
+###  DEPARTMENT: CSE
 
 # EXPERIMENT--04-INTERFACING IOT DEVELOPMENT BOARD AND CONFIGURE USART FOR TRANSFERRING STRINGS 
+
 ## Aim: To Interface iot development board for configuring the the usart and transfer strings though it 
 ## Components required: STM32 CUBE IDE, ARM IOT development board,  STM programmer tool, Serial port utility tool 
 ## Theory 
@@ -56,8 +57,11 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
 #define PUTCHAR_PROTOTPYE int __io_putchar(int ch)
 
 #endif
+
 while(1)
+
 {
+
 printf(KAVIYA\n
 
    212223040090\n)
